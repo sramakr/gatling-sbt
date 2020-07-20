@@ -26,7 +26,6 @@ object PropertyUtils {
     "-XX:MaxInlineLevel=20",
     "-XX:MaxTrivialSize=12",
     "-XX:-UseBiasedLocking",
-    "-Djava.net.preferIPv4Stack=true",
-    "-Djava.net.preferIPv6Addresses=false"
+    "-Djava.net.preferIPv6Addresses=true"
   )
 }
